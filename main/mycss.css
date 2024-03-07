@@ -56,9 +56,9 @@ nav img {
 }
 
 .form {
-  background-color: white;
+  /* background-color: rgb(209, 207, 207) !important; */
   min-width: 300px;
-  background-color: #dddddd !important;
+  background-color: #ededed !important;
   box-sizing: border-box;
   @media (max-width: 768px) {
     width: 90% !important;
@@ -118,6 +118,7 @@ select {
 button {
   color: #802a8f;
   font-weight: 500;
+  
 }
 
 .review-card {

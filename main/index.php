@@ -16,11 +16,11 @@
 <body>
     <div class='d-flex flex-column min-vh-100'>
         <header class="position-sticky top-0 bg-light">
-            <nav class='d-flex justify-content-between align-items-center p-3'>
+            <nav class='d-flex justify-content-between align-items-center p-3 px-md-5'>
                 <a href="" class="">
                     <img src="https://www.cioncancerclinics.com/biopsy-test-hyderabad/assets/img/v2/cion-cancer-clinics-logo.svg" alt="">
                 </a>
-                <button style="background-color: #dc3545; background: var(--clr1);" class="px-2 py-1 border-0 fw-bold rounded text-white px-2">
+                <button style="background-color: #dc3545; background: var(--clr1); font-weight: 500;" class="px-2 py-1 border-0 rounded text-light opacity-50  px-2">
                     Contact Us
                 </button>
             </nav>
@@ -110,22 +110,12 @@
                             <p style='text-decoration: line-through;'>RS 20000/-</p>
                             <p>RS 14999</p>
                         </div>
-                        <button style='background-color: #802A8F;' class='my-3 fs-4 px-3 py-2 border-0 fw-bold rounded text-white'>
+                        <button style='background-color: #802A8F;' class='my-3 fs-4 px-3 py-1 border-0 fw-bold rounded text-white'>
                             Book Now
                         </button>
                     </div>";
                     }
                     ?>
-                    <div class="types-card bg-light p-2 rounded d-flex flex-column justify-content-center align-items-center">
-                        <h2>Whole body analog pet CT scan</h2>
-                        <div class="border-2 border-bottom-primary d-flex flex-row align-items-center">
-                            <p class="" style="text-decoration: line-through;">RS 20000/-</p>
-                            <p class="">RS 14999</p>
-                        </div>
-                        <button style="background-color: #802A8F;" class="my-2 px-2 py-1 border-0 fw-bold rounded text-white px-2">
-                            Book Now
-                        </button>
-                    </div>
                 </div>
             </div>
             <div class="d-flex flex-md-row  align-items-center p-3 text-white mb-2" style="background-color: #a65fa2;">
@@ -145,7 +135,62 @@
                     Testimonial
                 </h1>
                 <div class="reviews-card-container d-flex flex-wrap justify-content-center align-items-center  ">
-                    <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="review-card d-none d-md-inline-flex m-2 p-2">
+                        <p>
+                            "Getting my PET CT scan was less stressful than I anticipated, thanks to the helpful staff. Rani was particularly supportive, ensuring I got my reports without any hassle. The follow-up oncology consultation was also a helpful touch." -
+                        </p>
+                        <hr />
+                        <div class="p-2 d-flex justify-content-between ">
+                            <h3>
+                                Priya K.
+                            </h3>
+                            <div>
+                                <img src="Star.png" alt="">
+                                <img src="Star.png" alt="">
+                                <img src="Star.png" alt="">
+                                <img src="Star.png" alt="">
+                                <img src="Star.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-card d-none d-md-inline-flex m-2 p-2">
+                        <p>
+                            "Getting my PET CT scan was less stressful than I anticipated, thanks to the helpful staff. Rani was particularly supportive, ensuring I got my reports without any hassle. The follow-up oncology consultation was also a helpful touch." -
+                        </p>
+                        <hr />
+                        <div class="p-2 d-flex justify-content-between ">
+                            <h3>
+                                Priya K.
+                            </h3>
+                            <div>
+                                <img src="Star.png" alt="">
+                                <img src="Star.png" alt="">
+                                <img src="Star.png" alt="">
+                                <img src="Star.png" alt="">
+                                <img src="Star.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-card d-none d-md-inline-flex
+                     m-2 p-2">
+                        <p>
+                            "Getting my PET CT scan was less stressful than I anticipated, thanks to the helpful staff. Rani was particularly supportive, ensuring I got my reports without any hassle. The follow-up oncology consultation was also a helpful touch." -
+                        </p>
+                        <hr />
+                        <div class="p-2 d-flex justify-content-between ">
+                            <h3>
+                                Priya K.
+                            </h3>
+                            <div>
+                                <img src="Star.png" alt="">
+                                <img src="Star.png" alt="">
+                                <img src="Star.png" alt="">
+                                <img src="Star.png" alt="">
+                                <img src="Star.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="carouselExampleCaptions" class="carousel slide d-md-none">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -225,19 +270,25 @@
                 </div>
             </div>
         </div>
-        <div class="guidelines-container d-flex flex-row justify-content-center flex-wrap ">
-            <div class="guidance-card d-flex flex-column align-items-center p-3 text-center">
-                <img src="./imgicon1.png" height="80" alt="">
-                <h5 class="mt-2 card-title">At least 6 hours of fasting before the scan, but the patient can have plain water.</h5>
+        <div class="my-4">
+            <h1 class="fs-3 text-center mt-5 mb-4">
+                Guidelines for PET-CT scans
+            </h1>
+            <div class="guidelines-container d-flex flex-row justify-content-center flex-wrap ">
+                <div class="guidance-card d-flex flex-column align-items-center p-3 text-center">
+                    <img src="./imgicon1.png" height="80" alt="">
+                    <h5 class="mt-2 card-title">At least 6 hours of fasting before the scan, but the patient can have plain water.</h5>
+                </div>
+                <div class="guidance-card d-flex flex-column align-items-center p-3 text-center">
+                    <img src="./imgicon2.png" height="80" alt="">
+                    <h5 class="mt-2 card-title">You are advised to report one hour before the scheduled time.</h5>
+                </div>
+                <div class="guidance-card d-flex flex-column align-items-center p-3 text-center">
+                    <img src="./imgicon3.png" height="80" alt="">
+                    <h5 class="mt-2 card-title">Carry previous PET-CT reports, CDs, medical records, recent serum creatinine and fasting blood sugar reports.</h5>
+                </div>
             </div>
-            <div class="guidance-card d-flex flex-column align-items-center p-3 text-center">
-                <img src="./imgicon2.png" height="80" alt="">
-                <h5 class="mt-2 card-title">You are advised to report one hour before the scheduled time.</h5>
-            </div>
-            <div class="guidance-card d-flex flex-column align-items-center p-3 text-center">
-                <img src="./imgicon3.png" height="80" alt="">
-                <h5 class="mt-2 card-title">Carry previous PET-CT reports, CDs, medical records, recent serum creatinine and fasting blood sugar reports.</h5>
-            </div>
+
         </div>
 
         <footer class="mt-auto">
