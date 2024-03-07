@@ -21,7 +21,7 @@
                     <img src="https://www.cioncancerclinics.com/biopsy-test-hyderabad/assets/img/v2/cion-cancer-clinics-logo.svg" alt="">
                 </a>
                 <button style="background-color: #dc3545; background: var(--clr1);" class="px-2 py-1 border-0 fw-bold rounded text-white px-2">
-                    Cantact Us
+                    Contact Us
                 </button>
             </nav>
         </header>
@@ -73,24 +73,24 @@
             <div class="d-flex flex-row justify-content-around flex-wrap my-3">
                 <div class='card1'>
                     <img src="img1.png" alt="">
-                    <p>Upto 40% Discount</p>
+                    <p class="fw-bold align-self-center" style="font-size: 1.1rem py-0 my-0; ">Upto 40% Discount</p>
                 </div>
                 <div class='card1'>
                     <img src="img1.png" alt="">
-                    <p>Same Day Report</p>
+                    <p class="fw-bold align-self-center" style="font-size: 1.1rem py-0 my-0; ">Same Day Report</p>
                 </div>
                 <div class='card1'>
                     <img src="img1.png" alt="">
-                    <p>100% Accuracy Assured</p>
+                    <p class="fw-bold align-self-center" style="font-size: 1.1rem py-0 my-0; ">100% Accuracy Assured</p>
                 </div>
                 <div class='card1'>
                     <img src="img1.png" alt="">
-                    <p>Free Doctor Consultation</p>
+                    <p class="fw-bold align-self-center" style="font-size: 1.1rem py-0 my-0; ">Free Doctor Consultation</p>
                 </div>
             </div>
             <div class='text-center p-3' style='background: rgb(240, 208,221);'>
-                <h1>
-                    Types of scan we do
+                <h1 class="fw-bold fs-2 my-5">
+                    Types of scans we do
                 </h1>
                 <div class="d-flex flex-row justify-content-center align-items-center flex-wrap">
                     <?php
@@ -131,7 +131,7 @@
             <div class="d-flex flex-md-row  align-items-center p-3 text-white mb-2" style="background-color: #a65fa2;">
                 <img height="100" src="img5.png" alt="">
                 <div class="ms-3 d-md-flex ms-md-3 flex-md-grow-1 justify-content-md-between ">
-                    <p style="max-width: 40%;" class="text-start text-md-center text-md-start">
+                    <p style="max-width: 40%;" class="text-md-start text-md-start">
                         Don’t have a prescription?
                         Consult Our Oncologist FREE now!  
                     </p>
