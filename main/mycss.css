@@ -1,0 +1,131 @@
+html {
+  font-size: 12px;
+}
+
+:root{
+  
+}
+
+.banner-and-form {
+  height: 600px;
+  border: 2px solid greenyellow;
+  background: url("img6.png");
+  background-size: cover;
+  color: white;
+  @media (max-width: 768px) {
+    height: 500px;
+  }
+}
+
+.banner-left-section {
+  max-width: 500px;
+}
+
+.banner-left-section h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.section-div {
+  margin: 10px 5px;
+  padding: 2px;
+  background-color: rgb(211, 11, 211);
+  border-radius: 5px;
+}
+
+.section-div p {
+  margin: 0;
+  font-size: 600;
+}
+
+.section-div img {
+}
+
+.form {
+  background-color: white;
+  min-width: 300px;
+  background-color: #dddddd !important;
+  box-sizing: border-box;
+  @media (max-width: 768px) {
+    width: 90% !important;
+    margin: 20px auto;
+  }
+}
+
+input,
+select {
+  height: 40px;
+  color: grey;
+  width: 100% !important;
+}
+
+.card1 {
+  all: unset;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  margin: 20px;
+}
+
+.card1 img {
+  height: 70px;
+  width: 70px;
+}
+
+.card1 p {
+  margin-left: 20px;
+  width: 120px;
+}
+
+.types-card h2 {
+  font-size: 28px !important;
+  width: 300px;
+}
+
+.types-card div p:first-child {
+  color: grey;
+  font-size: 23px;
+  margin: 10px;
+}
+.types-card div p:last-child {
+  color: rgb(235, 19, 235);
+  font-size: 23px;
+  margin: 10px;
+}
+
+.types-card > div {
+  border-bottom: 2px solid rgb(209, 206, 206);
+  align-self: stretch;
+  text-align: center;
+  justify-content: center;
+}
+
+button {
+  color: #802a8f;
+  font-weight: 500;
+}
+
+.review-card {
+  background-color: #e0b2e8;
+  border-radius: 5px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.guidance-card {
+  width: 31%;
+  margin: 10px;
+  /* border: 2px solid rgb(201, 201, 201); */
+  box-shadow: 0 4px 16px 0 #bfbfbf;
+  border-radius: 6px;
+  @media (max-width: 768px) {
+    width: 48%;
+    margin: 10px;
+  }
+  @media (max-width: 572px) {
+    width: 90%;
+    margin: 10px;
+  }
+}
