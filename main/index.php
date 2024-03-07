@@ -18,9 +18,9 @@
         <header class="position-sticky top-0 bg-light">
             <nav class='d-flex justify-content-between align-items-center p-3'>
                 <a href="" class="">
-                    <img class="h-[60px] md:h-[80px]" height="60" src="https://www.cioncancerclinics.com/biopsy-test-hyderabad/assets/img/v2/cion-cancer-clinics-logo.svg" alt="">
+                    <img src="https://www.cioncancerclinics.com/biopsy-test-hyderabad/assets/img/v2/cion-cancer-clinics-logo.svg" alt="">
                 </a>
-                <button style="background-color: #dc3545;" class="px-2 py-1 border-0 fw-bold rounded text-white px-2">
+                <button style="background-color: #dc3545; background: var(--clr1);" class="px-2 py-1 border-0 fw-bold rounded text-white px-2">
                     Cantact Us
                 </button>
             </nav>
@@ -128,15 +128,17 @@
                     </div>
                 </div>
             </div>
-            <div class="d-flex flex-column flex-md-row  align-items-center p-3 text-white mb-2" style="background-color: #a65fa2;">
+            <div class="d-flex flex-md-row  align-items-center p-3 text-white mb-2" style="background-color: #a65fa2;">
                 <img height="100" src="img5.png" alt="">
-                <p style="max-width: 40%;" class="text-center text-md-start  ms-3">
-                    Don’t have a prescription?
-                    Consult Our Oncologist FREE now!  
-                </p>
-                <button class="border-0 ms-md-auto p-3 rounded bg-light">
-                    Book Appointment
-                </button>
+                <div class="ms-3 d-md-flex ms-md-3 flex-md-grow-1 justify-content-md-between ">
+                    <p style="max-width: 40%;" class="text-start text-md-center text-md-start">
+                        Don’t have a prescription?
+                        Consult Our Oncologist FREE now!  
+                    </p>
+                    <button class="border-0 ms-md-auto px-3 py-md-2 rounded bg-light">
+                        Book Appointment
+                    </button>
+                </div>
             </div>
             <div class="reviews-section d-flex flex-column justify-content-center align-items-center ">
                 <h1>
