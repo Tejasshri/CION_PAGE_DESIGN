@@ -118,7 +118,6 @@ select {
 button {
   color: #802a8f;
   font-weight: 500;
-  
 }
 
 .review-card {
@@ -141,5 +140,53 @@ button {
   @media (max-width: 572px) {
     width: 90%;
     margin: 10px;
+  }
+}
+
+.understanding-ct-scan-container {
+}
+
+.understanding-ct-scan-card-container {
+}
+
+.understanding-ct-scan-card-container img {
+  width: 40%;
+  height: auto;
+  @media (max-width: 768px) {
+    width: 90%;
+  }
+}
+
+.location-container {
+  background-color: var(--clr1);
+  color: white;
+}
+
+.location-container > div {
+  flex-grow: 1;
+  border-right: 1px solid white;
+  width: 50%;
+  @media screen and (min-width: 768px) {
+    width: 25%;
+  }
+}
+
+.our-services-card {
+  margin: unset;
+  margin: 10px 0;
+  width: unset !important;
+  width: 24% !important;
+  @media screen and (max-width: 768px) {
+    width: 48% !important;
+  }
+}
+
+.faq-inner-container {
+}
+
+.accordion {
+  width: 90%;
+  @media (min-width: 768px) {
+    width: 48%;
   }
 }

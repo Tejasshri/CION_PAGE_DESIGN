@@ -269,27 +269,29 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="my-4">
-            <h1 class="fs-3 text-center mt-5 mb-4">
-                Guidelines for PET-CT scans
-            </h1>
-            <div class="guidelines-container d-flex flex-row justify-content-center flex-wrap ">
-                <div class="guidance-card d-flex flex-column align-items-center p-3 text-center">
-                    <img src="./imgicon1.png" height="80" alt="">
-                    <h5 class="mt-2 card-title">At least 6 hours of fasting before the scan, but the patient can have plain water.</h5>
+            <div class="my-4">
+                <h1 class="fs-3 text-center mt-5 mb-4">
+                    Guidelines for PET-CT scans
+                </h1>
+                <div class="guidelines-container d-flex flex-row justify-content-center flex-wrap ">
+                    <div class="guidance-card d-flex flex-column align-items-center p-3 text-center">
+                        <img src="./imgicon1.png" height="80" alt="">
+                        <h5 class="mt-2 card-title">At least 6 hours of fasting before the scan, but the patient can have plain water.</h5>
+                    </div>
+                    <div class="guidance-card d-flex flex-column align-items-center p-3 text-center">
+                        <img src="./imgicon2.png" height="80" alt="">
+                        <h5 class="mt-2 card-title">You are advised to report one hour before the scheduled time.</h5>
+                    </div>
+                    <div class="guidance-card d-flex flex-column align-items-center p-3 text-center">
+                        <img src="./imgicon3.png" height="80" alt="">
+                        <h5 class="mt-2 card-title">Carry previous PET-CT reports, CDs, medical records, recent serum creatinine and fasting blood sugar reports.</h5>
+                    </div>
                 </div>
-                <div class="guidance-card d-flex flex-column align-items-center p-3 text-center">
-                    <img src="./imgicon2.png" height="80" alt="">
-                    <h5 class="mt-2 card-title">You are advised to report one hour before the scheduled time.</h5>
-                </div>
-                <div class="guidance-card d-flex flex-column align-items-center p-3 text-center">
-                    <img src="./imgicon3.png" height="80" alt="">
-                    <h5 class="mt-2 card-title">Carry previous PET-CT reports, CDs, medical records, recent serum creatinine and fasting blood sugar reports.</h5>
-                </div>
-            </div>
 
+            </div>
+            <?php include "more.php" ?>
         </div>
+
 
         <footer class="mt-auto">
             <div class="d-flex flex-column align-items-center p-3 text-white" style="background-color: #a65fa2;">
