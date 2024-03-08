@@ -1,18 +1,18 @@
 <div class="d-flex flex-wrap location-container py-3 ps-3">
     <div class="location-card d-flex justify-content-center align-items-center p-2 mt-3">
-        <img src="./locationIcon.png" alt="">
+        <img src="./assets/locationIcon.png" alt="">
         Jubilee Hills
     </div>
     <div class="location-card d-flex justify-content-center align-items-center p-2 mt-3">
-        <img src="./locationIcon.png" alt="">
+        <img src="./assets/locationIcon.png" alt="">
         Narayanguda
     </div>
     <div class="location-card d-flex justify-content-center align-items-center p-2 mt-3">
-        <img src="./locationIcon.png" alt="">
+        <img src="./assets/locationIcon.png" alt="">
         Punjagutta
     </div>
     <div class="location-card d-flex justify-content-center align-items-center p-2 mt-3">
-        <img src="./locationIcon.png" alt="">
+        <img src="./assets/locationIcon.png" alt="">
         Himayathnagar
     </div>
 </div>
@@ -22,7 +22,7 @@
         Understanding PET-CT Scans: Importance, Need, and Cost in India
     </h2>
     <div class="d-flex flex-column flex-md-row align-items-center justify-content-center justify-content-md-start  understanding-ct-scan-card-container">
-        <img class="" src="./video.png" alt="">
+        <img class="" src="./assets/video.png" alt="">
         <div class="border border-bottom-dark flex-grow-1 align-self-md-stretch ms-md-3 mt-3 mt-md-0 " style="width: 90%;">
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
@@ -75,35 +75,35 @@
     </h2>
     <div class="d-flex flex-row justify-content-between  flex-wrap p-3">
         <div class="our-services-card guidance-card d-flex flex-column align-items-center p-3 text-center">
-            <img src="./imgicon1.png" height="80" alt="">
+            <img src="./assets/imgicon1.png" height="80" alt="">
             <h5 class="mt-2 card-title">Cancer Surgeries</h5>
         </div>
         <div class="our-services-card guidance-card d-flex flex-column align-items-center p-3 text-center">
-            <img src="./imgicon2.png" height="80" alt="">
+            <img src="./assets/imgicon2.png" height="80" alt="">
             <h5 class="mt-2 card-title">Chemotherapy</h5>
         </div>
         <div class="our-services-card guidance-card d-flex flex-column align-items-center p-3 text-center">
-            <img src="./imgicon3.png" height="80" alt="">
+            <img src="./assets/imgicon3.png" height="80" alt="">
             <h5 class="mt-2 card-title">Immunotherapy</h5>
         </div>
         <div class="our-services-card guidance-card d-flex flex-column align-items-center p-3 text-center">
-            <img src="./imgicon3.png" height="80" alt="">
+            <img src="./assets/imgicon3.png" height="80" alt="">
             <h5 class="mt-2 card-title">Radiation Oncology</h5>
         </div>
         <div class="our-services-card guidance-card d-flex flex-column align-items-center p-3 text-center">
-            <img src="./imgicon1.png" height="80" alt="">
+            <img src="./assets/imgicon1.png" height="80" alt="">
             <h5 class="mt-2 card-title">Biopsy</h5>
         </div>
         <div class="our-services-card guidance-card d-flex flex-column align-items-center p-3 text-center">
-            <img src="./imgicon2.png" height="80" alt="">
+            <img src="./assets/imgicon2.png" height="80" alt="">
             <h5 class="mt-2 card-title">Breast & Oral Screenings</h5>
         </div>
         <div class="our-services-card guidance-card d-flex flex-column align-items-center p-3 text-center">
-            <img src="./imgicon3.png" height="80" alt="">
+            <img src="./assets/imgicon3.png" height="80" alt="">
             <h5 class="mt-2 card-title">MRI Scans</h5>
         </div>
         <div class="our-services-card guidance-card d-flex flex-column align-items-center p-3 text-center">
-            <img src="./imgicon3.png" height="80" alt="">
+            <img src="./assets/imgicon3.png" height="80" alt="">
             <h5 class="mt-2 card-title">Bons scans</h5>
         </div>
     </div>
@@ -113,7 +113,7 @@
     <h1>
         FAQs
     </h1>
-    <div class="faq-inner-container align-self-stretch border border-danger d-flex flex-wrap">
+    <div class="faq-inner-container align-self-stretch d-flex flex-wrap">
         <?php for ($i = 0; $i < 8; $i++) : ?>
             <div class="accordion" id="accordionExample<?php echo $i; ?>">
                 <div class="accordion-item">

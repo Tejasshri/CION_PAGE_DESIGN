@@ -21,7 +21,7 @@ nav img {
 .banner-and-form {
   height: 600px;
   border: 2px solid greenyellow;
-  background: url("img6.png");
+  background: url("../assets/img6.png");
   background-size: cover;
   color: white;
   @media (max-width: 768px) {
@@ -184,7 +184,7 @@ button {
 .faq-inner-container {
 }
 
-.accordion {
+.faq-inner-container .accordion {
   width: 90%;
   @media (min-width: 768px) {
     width: 48%;

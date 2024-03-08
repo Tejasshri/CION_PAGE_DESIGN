@@ -10,21 +10,12 @@
     <title>
         CION CANCERS
     </title>
-    <link rel="stylesheet" href="./mycss.css">
+    <link rel="stylesheet" href="./components/mycss.css">
 </head>
 
 <body>
     <div class='d-flex flex-column min-vh-100'>
-        <header class="position-sticky top-0 bg-light">
-            <nav class='d-flex justify-content-between align-items-center p-3 px-md-5'>
-                <a href="" class="">
-                    <img src="https://www.cioncancerclinics.com/biopsy-test-hyderabad/assets/img/v2/cion-cancer-clinics-logo.svg" alt="">
-                </a>
-                <button style="background-color: #dc3545; background: var(--clr1); font-weight: 500;" class="px-2 py-1 border-0 rounded text-light opacity-50  px-2">
-                    Contact Us
-                </button>
-            </nav>
-        </header>
+        <?php include "./components/header.php" ?>
         <div class=' flex-grow' style='flex-grow:1;'>
             <div class='banner-and-form d-flex justify-content-between align-items-center p-3'>
                 <section class="banner-left-section">
@@ -32,11 +23,11 @@
                         PET CT SCAN Cost for cancer diagnostic starts at Rs.10999/-
                     </h1>
                     <div class="d-flex section-div d-flex flex-row align-items-center">
-                        <img src="imgs1.png" alt="" width="60" height="60" class="">
+                        <img src="./assets/imgs1.png" alt="" width="60" height="60" class="">
                         <p class="ms-3 fs-4 fw-normal text-light">One Free Oncology Consultation</p>
                     </div>
                     <div class="d-flex section-div">
-                        <img src="imgs2.png" alt="" width="60" height="60" class="">
+                        <img src="./assets/imgs2.png" alt="" width="60" height="60" class="">
                         <p class="ms-3 fs-4 fw-normal text-light">CION Assured Oncologist Diagnostics
                         </p>
                     </div>
@@ -72,19 +63,19 @@
             </form>
             <div class="d-flex flex-row justify-content-around flex-wrap my-3">
                 <div class='card1'>
-                    <img src="img1.png" alt="">
+                    <img src="./assets/img1.png" alt="">
                     <p class="fw-bold align-self-center" style="font-size: 1.1rem py-0 my-0; ">Upto 40% Discount</p>
                 </div>
                 <div class='card1'>
-                    <img src="img1.png" alt="">
+                    <img src="./assets/img1.png" alt="">
                     <p class="fw-bold align-self-center" style="font-size: 1.1rem py-0 my-0; ">Same Day Report</p>
                 </div>
                 <div class='card1'>
-                    <img src="img1.png" alt="">
+                    <img src="./assets/img1.png" alt="">
                     <p class="fw-bold align-self-center" style="font-size: 1.1rem py-0 my-0; ">100% Accuracy Assured</p>
                 </div>
                 <div class='card1'>
-                    <img src="img1.png" alt="">
+                    <img src="./assets/img1.png" alt="">
                     <p class="fw-bold align-self-center" style="font-size: 1.1rem py-0 my-0; ">Free Doctor Consultation</p>
                 </div>
             </div>
@@ -119,7 +110,7 @@
                 </div>
             </div>
             <div class="d-flex flex-md-row  align-items-center p-3 text-white mb-2" style="background-color: #a65fa2;">
-                <img height="100" src="img5.png" alt="">
+                <img height="100" src="./assets/img5.png" alt="">
                 <div class="ms-3 d-md-flex ms-md-3 flex-md-grow-1 justify-content-md-between ">
                     <p style="max-width: 40%;" class="text-md-start text-md-start">
                         Don’t have a prescription?
@@ -135,7 +126,7 @@
                     Testimonial
                 </h1>
                 <div class="reviews-card-container d-flex flex-wrap justify-content-center align-items-center  ">
-                    <div class="review-card d-none d-md-inline-flex m-2 p-2">
+                    <div class="review-card d-none d-md-flex flex-column  m-2 p-2">
                         <p>
                             "Getting my PET CT scan was less stressful than I anticipated, thanks to the helpful staff. Rani was particularly supportive, ensuring I got my reports without any hassle. The follow-up oncology consultation was also a helpful touch." -
                         </p>
@@ -145,15 +136,15 @@
                                 Priya K.
                             </h3>
                             <div>
-                                <img src="Star.png" alt="">
-                                <img src="Star.png" alt="">
-                                <img src="Star.png" alt="">
-                                <img src="Star.png" alt="">
-                                <img src="Star.png" alt="">
+                                <img src="./assets/Star.png" alt="">
+                                <img src="./assets/Star.png" alt="">
+                                <img src="./assets/Star.png" alt="">
+                                <img src="./assets/Star.png" alt="">
+                                <img src="./assets/Star.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="review-card d-none d-md-inline-flex m-2 p-2">
+                    <div class="review-card d-none d-md-flex flex-column  m-2 p-2">
                         <p>
                             "Getting my PET CT scan was less stressful than I anticipated, thanks to the helpful staff. Rani was particularly supportive, ensuring I got my reports without any hassle. The follow-up oncology consultation was also a helpful touch." -
                         </p>
@@ -163,15 +154,15 @@
                                 Priya K.
                             </h3>
                             <div>
-                                <img src="Star.png" alt="">
-                                <img src="Star.png" alt="">
-                                <img src="Star.png" alt="">
-                                <img src="Star.png" alt="">
-                                <img src="Star.png" alt="">
+                                <img src="./assets/Star.png" alt="">
+                                <img src="./assets/Star.png" alt="">
+                                <img src="./assets/Star.png" alt="">
+                                <img src="./assets/Star.png" alt="">
+                                <img src="./assets/Star.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="review-card d-none d-md-inline-flex
+                    <div class="review-card d-none d-md-flex flex-column 
                      m-2 p-2">
                         <p>
                             "Getting my PET CT scan was less stressful than I anticipated, thanks to the helpful staff. Rani was particularly supportive, ensuring I got my reports without any hassle. The follow-up oncology consultation was also a helpful touch." -
@@ -182,11 +173,11 @@
                                 Priya K.
                             </h3>
                             <div>
-                                <img src="Star.png" alt="">
-                                <img src="Star.png" alt="">
-                                <img src="Star.png" alt="">
-                                <img src="Star.png" alt="">
-                                <img src="Star.png" alt="">
+                                <img src="./assets/Star.png" alt="">
+                                <img src="./assets/Star.png" alt="">
+                                <img src="./assets/Star.png" alt="">
+                                <img src="./assets/Star.png" alt="">
+                                <img src="./assets/Star.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -208,11 +199,11 @@
                                             Priya K.
                                         </h3>
                                         <div>
-                                            <img src="Star.png" alt="">
-                                            <img src="Star.png" alt="">
-                                            <img src="Star.png" alt="">
-                                            <img src="Star.png" alt="">
-                                            <img src="Star.png" alt="">
+                                            <img src="./assets/Star.png" alt="">
+                                            <img src="./assets/Star.png" alt="">
+                                            <img src="./assets/Star.png" alt="">
+                                            <img src="./assets/Star.png" alt="">
+                                            <img src="./assets/Star.png" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -228,11 +219,11 @@
                                             Subodh
                                         </h3>
                                         <div>
-                                            <img src="Star.png" alt="">
-                                            <img src="Star.png" alt="">
-                                            <img src="Star.png" alt="">
-                                            <img src="Star.png" alt="">
-                                            <img src="Star.png" alt="">
+                                            <img src="./assets/Star.png" alt="">
+                                            <img src="./assets/Star.png" alt="">
+                                            <img src="./assets/Star.png" alt="">
+                                            <img src="./assets/Star.png" alt="">
+                                            <img src="./assets/Star.png" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -248,11 +239,11 @@
                                             Sai Teja
                                         </h3>
                                         <div>
-                                            <img src="Star.png" alt="">
-                                            <img src="Star.png" alt="">
-                                            <img src="Star.png" alt="">
-                                            <img src="Star.png" alt="">
-                                            <img src="Star.png" alt="">
+                                            <img src="./assets/Star.png" alt="">
+                                            <img src="./assets/Star.png" alt="">
+                                            <img src="./assets/Star.png" alt="">
+                                            <img src="./assets/Star.png" alt="">
+                                            <img src="./assets/Star.png" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -275,35 +266,23 @@
                 </h1>
                 <div class="guidelines-container d-flex flex-row justify-content-center flex-wrap ">
                     <div class="guidance-card d-flex flex-column align-items-center p-3 text-center">
-                        <img src="./imgicon1.png" height="80" alt="">
+                        <img src="./assets/imgicon1.png" height="80" alt="">
                         <h5 class="mt-2 card-title">At least 6 hours of fasting before the scan, but the patient can have plain water.</h5>
                     </div>
                     <div class="guidance-card d-flex flex-column align-items-center p-3 text-center">
-                        <img src="./imgicon2.png" height="80" alt="">
+                        <img src="./assets/imgicon2.png" height="80" alt="">
                         <h5 class="mt-2 card-title">You are advised to report one hour before the scheduled time.</h5>
                     </div>
                     <div class="guidance-card d-flex flex-column align-items-center p-3 text-center">
-                        <img src="./imgicon3.png" height="80" alt="">
+                        <img src="./assets/imgicon3.png" height="80" alt="">
                         <h5 class="mt-2 card-title">Carry previous PET-CT reports, CDs, medical records, recent serum creatinine and fasting blood sugar reports.</h5>
                     </div>
                 </div>
 
             </div>
-            <?php include "more.php" ?>
+            <?php include "./components/more.php" ?>
         </div>
-
-
-        <footer class="mt-auto">
-            <div class="d-flex flex-column align-items-center p-3 text-white" style="background-color: #a65fa2;">
-                <h2 class="fw-normal text-center" style='font-weight: 500;'>
-                    Schedule Your Biopsy with Leading Surgeons and Pathologists in Hyderabad
-                </h2>
-                <button class="text-secondary fw-bold border-0 p-3 rounded bg-white text-gray-600 my-3 font-bold">
-                    Schedule Now
-                </button>
-            </div>
-            <h1 class="bg-dark text-white fw-normal fs-3  p-3 text-center">© CIPHER ONCOLOGY</h1>
-        </footer>
+        <?php include "./components/footer.php" ?>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
