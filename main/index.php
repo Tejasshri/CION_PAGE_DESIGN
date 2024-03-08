@@ -10,13 +10,13 @@
     <title>
         CION CANCERS
     </title>
-    <link rel="stylesheet" href="./components/mycss.css">
+    <link rel="stylesheet" href="./components/styles.css">
 </head>
 
 <body>
     <div class='d-flex flex-column min-vh-100'>
         <?php include "./components/header.php" ?>
-        <div class=' flex-grow' style='flex-grow:1;'>
+        <div class='flex-grow align-self-center ' style='flex-grow:1;'>
             <div class='banner-and-form d-flex justify-content-between align-items-center p-3'>
                 <section class="banner-left-section">
                     <h1>

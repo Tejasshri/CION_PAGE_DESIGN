@@ -115,7 +115,7 @@
     </h1>
     <div class="faq-inner-container align-self-stretch d-flex flex-wrap">
         <?php
-            // $myLs = array(
+            //      $myLs = array(
             //     array()."What is PET Scan?"=> "Positron Emission Tomography (PET) is a non-invasive imaging technique. PET Scan reports functional activity, constitution, and body structure of cells inside the body. A PET Scan is precise and helps in diagnosing sicknesses which include most cancers at early stages.",
             //     array()."What is PET Scan?"=> "Positron Emission Tomography (PET) is a non-invasive imaging technique. PET Scan reports functional activity, constitution, and body structure of cells inside the body. A PET Scan is precise and helps in diagnosing sicknesses which include most cancers at early stages.",
             //     array()."What is PET Scan?"=> "Positron Emission Tomography (PET) is a non-invasive imaging technique. PET Scan reports functional activity, constitution, and body structure of cells inside the body. A PET Scan is precise and helps in diagnosing sicknesses which include most cancers at early stages.",
@@ -123,7 +123,7 @@
             //     array()."What is PET Scan?"=> "Positron Emission Tomography (PET) is a non-invasive imaging technique. PET Scan reports functional activity, constitution, and body structure of cells inside the body. A PET Scan is precise and helps in diagnosing sicknesses which include most cancers at early stages.",
             //     array()."What is PET Scan?"=> "Positron Emission Tomography (PET) is a non-invasive imaging technique. PET Scan reports functional activity, constitution, and body structure of cells inside the body. A PET Scan is precise and helps in diagnosing sicknesses which include most cancers at early stages.",
             //     array()."What is PET Scan?"=> "Positron Emission Tomography (PET) is a non-invasive imaging technique. PET Scan reports functional activity, constitution, and body structure of cells inside the body. A PET Scan is precise and helps in diagnosing sicknesses which include most cancers at early stages.",
-            // )  ;          
+            // )  ;     
             for ($i = 0; $i < 8; $i++) : 
         
         ?>

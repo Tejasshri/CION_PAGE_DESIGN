@@ -1,17 +1,22 @@
 html {
-  font-size: 15px;
+  font-size: 1.6vw;
   transition: all 1s;
   @media screen and (max-width: 768px) {
-    font-size: 13px;
+    font-size: 1.4vw;
   }
   @media screen and (max-width: 576px) {
-    font-size: 13px;
+    font-size: 1.2vw;
   }
 }
 
 :root {
   height: 40px;
   --clr1: #802a8f;
+  --fi: ;
+}
+
+.custom-nav {
+  height: 100px;
 }
 
 nav img {
@@ -19,7 +24,8 @@ nav img {
 }
 
 .banner-and-form {
-  height: 600px;
+  /* height: 70vh; */
+  padding: 20 0;
   border: 2px solid greenyellow;
   background: url("../assets/img6.png");
   background-size: cover;
@@ -30,11 +36,11 @@ nav img {
 }
 
 .banner-left-section {
-  max-width: 500px;
+  max-width: 40vw;
 }
 
 .banner-left-section h1 {
-  font-size: 3rem;
+  font-size: 3;
   font-weight: 600;
   letter-spacing: 0em;
   text-align: left;
@@ -68,7 +74,7 @@ nav img {
 
 input,
 select {
-  height: 40px;
+  height: 3vw;
   color: grey;
   width: 100% !important;
 }
@@ -93,7 +99,7 @@ select {
 
 .types-card h2 {
   font-size: 1.4rem !important;
-  width: 300px;
+  width: 30vw;
   color: rgb(30, 29, 29);
 }
 
@@ -123,22 +129,23 @@ button {
 .review-card {
   background-color: #e0b2e8;
   border-radius: 5px;
-  max-width: 400px;
+  /* max-width: 400px; */
+  width: 32vw;
   text-align: center;
 }
 
 .guidance-card {
-  width: 31%;
+  width: 31vw;
   margin: 10px;
   /* border: 2px solid rgb(201, 201, 201); */
   box-shadow: 0 4px 16px 0 #bfbfbf;
   border-radius: 6px;
   @media (max-width: 768px) {
-    width: 48%;
+    width: 48vw;
     margin: 10px;
   }
   @media (max-width: 572px) {
-    width: 90%;
+    width: 90vw;
     margin: 10px;
   }
 }
