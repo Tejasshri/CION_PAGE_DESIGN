@@ -1,18 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 html {
-  font-size: 1.6vw;
+  font-family: bree serif, Monotype corsiva;
+  font-size: 2.76vw;
   transition: all 1s;
   @media screen and (max-width: 768px) {
-    font-size: 1.4vw;
-  }
-  @media screen and (max-width: 576px) {
-    font-size: 1.2vw;
+    font-size: 4.4vw;
   }
 }
 
 :root {
   height: 40px;
   --clr1: #802a8f;
-  --fi: ;
+  --fss-1: 1rem; /* 22px */
+  --fss-2: 0.6226rem; /* 33px */
+  --fss-3: ;
+  --fss-4: ;
+  --fss-5: ;
+  --fss-33: 0.6226rem;
+  --fss-16: 0.7272rem; /* 16px */
+  --pic-s: 2.6rem;
+  --common-font: 1rem;
+  @media (max-width: 768px) {
+    --fss-1: 0.6226rem;
+    --fss-2: ;
+    --fss-3: ;
+    --fss-4: ;
+    --fss-5: ;
+    --pic-s: 2.364rem;
+  }
 }
 
 .custom-nav {
@@ -20,29 +36,33 @@ html {
 }
 
 nav img {
-  height: 5rem;
+  height: 1.6rem;
+  width: 4.339rem;
+  @media screen and (max-width: 768px) {
+    height: 1.4545rem;
+    width: 4rem;
+  }
 }
 
 .banner-and-form {
   /* height: 70vh; */
-  padding: 20 0;
+  padding: 20px 0;
   border: 2px solid greenyellow;
   background: url("../assets/img6.png");
   background-size: cover;
   color: white;
   @media (max-width: 768px) {
-    height: 500px;
+    height: 768px;
   }
 }
 
 .banner-left-section {
-  max-width: 40vw;
+  /* max-width: 40vw; */
 }
 
 .banner-left-section h1 {
-  font-size: 3;
+  font-size: 1.6rem;
   font-weight: 600;
-  letter-spacing: 0em;
   text-align: left;
 }
 
@@ -55,15 +75,14 @@ nav img {
 
 .section-div p {
   margin: 0;
-  font-size: 600;
+  font-size: 1rem !important;
 }
 
 .section-div img {
 }
 
 .form {
-  /* background-color: rgb(209, 207, 207) !important; */
-  min-width: 300px;
+  /* min-width: 40vw; */
   background-color: #ededed !important;
   box-sizing: border-box;
   @media (max-width: 768px) {
@@ -72,46 +91,97 @@ nav img {
   }
 }
 
+form > h1 {
+  font-size: 1rem;
+}
+
+form > button {
+  font-size: 0.6223rem;
+  @media screen and (max-width) {
+    font-size: 1rem;
+  }
+  background-color: var(--clr1) !important;
+  border-radius: 4px;
+}
+
 input,
 select {
-  height: 3vw;
+  font-size: 0.6226rem;
   color: grey;
   width: 100% !important;
+  padding: 16px 10px;
 }
 
 .card1 {
   all: unset;
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
   margin: 20px;
 }
 
 .card1 img {
-  height: 70px;
-  width: 70px;
+  height: var(--pic-s);
+  width: var(--pic-s);
 }
 
-.card1 p {
-  margin-left: 20px;
-  width: 120px;
+.card1 > span {
+  font-weight: 500;
+  /* margin: 0; */
+  margin-left: 14px;
+  width: 3.5283rem;
+  font-size: 0.6226rem;
+  @media screen and (max-width: 768px) {
+    font-size: 1rem;
+    width: 5.63rem;
+  }
+}
+
+.card1 button {
+  font-size: 0.6226rem;
+  @media screen and (max-width: 768px) {
+    font-size: 0.727rem;
+  }
+}
+
+.types-card {
+  display: flex;
+  justify-content: space-around !important;
 }
 
 .types-card h2 {
-  font-size: 1.4rem !important;
-  width: 30vw;
+  font-size: var(--fss-2) !important;
+  width: 6rem;
+  height: 1.54716981rem;
+  text-transform: capitalize;
   color: rgb(30, 29, 29);
+  margin-top: 1.07692308rem !important;
+  margin-bottom: 0.339622642rem !important;
+  @media screen and (max-width: 768px) {
+    font-size: 0.727rem;
+    width: 7.3636rem;
+    height: 2.818181rem;
+  }
 }
 
 .types-card div p:first-child {
   color: grey;
   font-size: 23px;
-  margin: 10px;
+  margin: auto;
+  font-weight: 700;
 }
+
 .types-card div p:last-child {
-  color: rgb(235, 19, 235);
+  font-weight: 700;
+  color: var(--clr1);
   font-size: 23px;
-  margin: 10px;
+  margin: auto;
+}
+
+.types-card div p {
+  font-size: var(--fss-33) !important;
+  @media screen and (max-width: 768px) {
+    font-size: var(--fss-16) !important;
+  }
 }
 
 .types-card > div {
@@ -121,17 +191,52 @@ select {
   justify-content: center;
 }
 
+.types-card button {
+  font-size: 0.6226rem;
+  width: calc(241rem / 53);
+  border-radius: 0.098113208rem;
+  font-weight: 500;
+  margin: 10px;
+  @media screen and (max-width: 768px) {
+    font-size: 0.727rem;
+    width: calc(100rem / 22);
+  }
+}
+
 button {
   color: #802a8f;
-  font-weight: 500;
+  border-radius: 5px !important;
+  font-weight: 768;
 }
 
 .review-card {
+  padding: 20px 0;
   background-color: #e0b2e8;
   border-radius: 5px;
-  /* max-width: 400px; */
-  width: 32vw;
+  width: 15.4716rem;
+  margin-top: 20px;
   text-align: center;
+  @media (max-width: 768px) {
+    width: 19.5rem;
+  }
+  
+}
+
+.review-card p {
+  align-self: center;
+  font-size: var(--fss-33);
+  @media screen and (max-width: 768px) {
+    font-size: var(--fss-16);
+  }
+}
+
+.review-person {
+  font-size: var(--fss-33);
+  @media screen and (max-width: 768px) {
+    font-size: var(--fss-16);
+  }
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 .guidance-card {
@@ -150,17 +255,32 @@ button {
   }
 }
 
+.guidance-card h5 {
+  font-size: var(--fss-33);
+  @media screen and (max-width: 768px) {
+    font-size: var(--fss-1);
+  }
+}
+
+.guidance-card img {
+  width: var(--pic-s) !important;
+  height: var(--pic-s) !important;
+}
+
 .understanding-ct-scan-container {
 }
 
-.understanding-ct-scan-card-container {
+.understanding-ct-scan-card-container > div {
+  @media screen and (max-width: 768px) {
+    width: 20.1818rem !important;
+  }
 }
 
 .understanding-ct-scan-card-container img {
-  width: 40%;
+  width: 14.4339rem;
   height: auto;
   @media (max-width: 768px) {
-    width: 90%;
+    width: 20.18rem;
   }
 }
 
@@ -175,6 +295,13 @@ button {
   width: 50%;
   @media screen and (min-width: 768px) {
     width: 25%;
+  }
+}
+
+.location-container img {
+  height: 1.3636rem;
+  @media screen and (min-width: 768px) {
+    width: 1.132rem;
   }
 }
 
@@ -197,4 +324,48 @@ button {
     width: 48%;
   }
   margin: auto;
+}
+
+.myBtn {
+  font-size: 0.49rem !important;
+  @media screen and (max-width: 768px) {
+    font-size: 0.5rem !important;
+  }
+}
+
+.title {
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+}
+
+.doctor-image {
+  width: var(--pic-s);
+  height: var(--pic-s);
+}
+
+.para {
+  max-width: 50vw;
+  @media (max-width: 768px) {
+    max-width: none;
+  }
+}
+
+strong {
+  max-width: 20px !important;
+  /* color: red; */
+  align-self: center;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: ;
+  align-items: center;
+}
+
+.rating-container img {
+  width: 0.47rem;
+  margin: 1px;
+  @media (max-width: 768px) {
+    width: 0.7727;
+  }
 }

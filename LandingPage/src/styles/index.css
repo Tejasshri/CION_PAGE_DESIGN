@@ -1,0 +1,50 @@
+html {
+  font-size: 2.76vw !important;
+  /* font-size: calc(53 / 1920 * 100) vw !important; */
+  /* transition: 1s; */
+}
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 4.4vw !important;
+  }
+}
+
+:root {
+  --brand-clr: #802a8f;
+  --rt-img-size: 80px;
+  font-size: calc(53 / 1920 * 100) vw;
+  transition: 1s;
+}
+@media screen and (max-width: 500px) {
+  :root {
+    --rt-img-size: 60px;
+    font-size: calc(22 / 500 * 100) vw;
+  }
+}
+
+.brand-color {
+  background: #802a8f !important;
+  color: white !important;
+}
+
+.logo {
+  height: var(--rt-img-size);
+}
+
+.main-body {
+}
+
+.banner-container {
+  background: url("../../assets/img6.png");
+  min-height: 300px;
+  height: 50vh;
+  background-size: cover;
+}
+
+.btn {
+  font-size: 1.2rem !important;
+}
+
+.section-div p {
+  font-size: 1rem;
+}

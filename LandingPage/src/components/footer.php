@@ -7,5 +7,5 @@
             Schedule Now
         </button>
     </div>
-    <h1 class="bg-dark text-white  p-3 text-center">© CIPHER ONCOLOGY</h1>
+    <h1 class="bg-dark text-white fw-normal fs-3  p-3 text-center">© CIPHER ONCOLOGY</h1>
 </footer>
