@@ -47,6 +47,8 @@ nav img {
 
 .banner-and-form {
   /* height: 70vh; */
+  /* opacity: 0.5; */
+  height: 19.1509434rem;
   padding: 20px 0;
   border: 2px solid greenyellow;
   background: url("../assets/img6.png");
@@ -54,6 +56,7 @@ nav img {
   color: white;
   @media (max-width: 768px) {
     height: 768px;
+    height: 16.6rem;
   }
 }
 

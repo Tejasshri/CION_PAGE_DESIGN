@@ -1,4 +1,4 @@
-<header class="position-sticky top-0 bg-light border-danger">
+<header class="position-sticky top-0 bg-light border-danger" style="z-index: 2;">
     <nav class='d-flex justify-content-between align-items-center p-3 px-md-5 custom-nav'>
         <a href="" class="">
             <img class="h-100" src="https://www.cioncancerclinics.com/biopsy-test-hyderabad/assets/img/v2/cion-cancer-clinics-logo.svg" alt="">

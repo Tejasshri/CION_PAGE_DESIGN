@@ -24,11 +24,11 @@
                     <h1>
                         PET CT SCAN Cost for cancer diagnostic starts at Rs.10999/-
                     </h1>
-                    <div class="d-flex section-div d-flex flex-row align-items-center">
+                    <div class="d-flex section-div d-flex flex-row align-items-center ps-1 py-1">
                         <img src="./assets/imgs1.png" alt="" width="60" height="60" class="">
                         <p class="ms-3 fs-4 fw-normal text-light">One Free Oncology Consultation</p>
                     </div>
-                    <div class="d-flex section-div">
+                    <div class="d-flex section-div ps-1 py-1">
                         <img src="./assets/imgs2.png" alt="" width="60" height="60" class="">
                         <p class="ms-3 fs-4 fw-normal text-light">CION Assured Oncologist Diagnostics
                         </p>
@@ -118,7 +118,7 @@
                     ?>
                 </div>
             </div>
-            <div class="d-flex flex-md-row justify-content-center justify-content-md-start align-items-center p-3 text-white mb-2" style="background-color: #a65fa2;">
+            <div class="d-flex flex-md-row justify-content-center justify-content-md-start align-items-center p-3 text-white mb-2" style="background-image: linear-gradient(to right, #802a8f, #d37fa0);">
                 <img class="doctor-image" src="./assets/img5.png" alt="">
                 <div class="ms-3 d-md-flex ms-md-3 flex-md-grow-1 justify-content-md-between align-items-md-center  ">
                     <p class="text-md-start para">
@@ -134,9 +134,9 @@
                 <h1 class="title align-self-center">
                     Testimonial
                 </h1>
-                <div class="reviews-card-container flex-wrap  d-flex justify-content-md-around align-self-center align-self-md-stretch">
+                <div class="reviews-card-container flex-wrap  d-flex justify-content-md-around align-self-center">
 
-                    <div class="review-card d-none d-md-flex flex-column">
+                    <div class="review-card d-none d-md-flex flex-column me-1">
                         <p><strong style="font-weight: 400;">
                                 "Getting my PET CT scan was less stressful than I anticipated, thanks to the helpful staff. Rani was particularly supportive, ensuring I got my reports without any hassle. The follow-up oncology consultation was also a helpful touch." -
                             </strong> </p>
@@ -154,7 +154,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="review-card d-none d-md-flex flex-column">
+                    <div class="review-card d-none d-md-flex flex-column ms-1">
                         <p>
                             <strong style="font-weight: 400;">
                                 "Getting my PET CT scan was less stressful than I anticipated, thanks to the helpful staff. Rani was particularly supportive, ensuring I got my reports without any hassle. The follow-up oncology consultation was also a helpful touch." -
@@ -298,7 +298,7 @@
                 </h2>
                 <div class="d-flex flex-column flex-md-row align-items-center justify-content-center justify-content-md-start  understanding-ct-scan-card-container">
                     <img class="" src="./assets/video.png" alt="">
-                    <div class="border border-bottom-dark flex-grow-1 align-self-md-stretch ms-md-3 mt-3 mt-md-0 " style="width: 90%;">
+                    <div class="border border-bottom-dark flex-grow-1 align-self-md-stretch ms-md-3 mt-3 mt-md-0 rounded" style="width: 90%;">
                         <div class="accordion" id="accordionExample">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">

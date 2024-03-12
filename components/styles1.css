@@ -4,7 +4,7 @@
 }
 
 .laptop-form {
-  padding: 1vw;
+  padding: calc(46rem / 53);
   width: 31.19vw !important;
   flex-shrink: 0;
 }
@@ -108,4 +108,27 @@ nav button {
   align-self: stretch;
   margin: 10px !important;
   margin-bottom: 4px !important;
+}
+
+.faq-inner-container .accordion-header,
+.faq-inner-container .accordion-item,
+.faq-inner-container .accordion-button {
+  background-color: white !important;
+}
+
+.faq-inner-container .accordion-body {
+  color: #303a42;
+}
+
+.inner-banner {
+  background-color: rba(0, 0, 0, 0.5);
+}
+
+.accordion-button::after {
+  background-size: 20px;
+  background-image: url("https://www.freepnglogos.com/uploads/plus-icon/plus-icon-plus-math-icon-download-icons-9.png");
+}
+.accordion-button:not(.collapsed)::after {
+  background-size: 20px !important;
+  background-image: url("https://tse2.mm.bing.net/th?id=OIP.olprDojCA6ATaPKWOyB3UgHaHa&pid=Api&P=0&h=180");
 }
