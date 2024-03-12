@@ -19,7 +19,7 @@
     <div class='d-flex flex-column min-vh-100' id="container">
         <?php include "./components/header.php" ?>
         <div class='flex-grow align-self-center' style='flex-grow:1;'>
-            <div class='banner d-flex justify-content-between align-items-center p-3'>
+            <div class='banner d-flex justify-content-between flex-column flex-md-row align-items-center p-3'>
                 <section class="banner-left-section" id="#form1">
                     <h1>
                         PET CT SCAN Cost for cancer diagnostic starts at <span style="border-radius:3px; background-color: var(--clr1);">Rs.10999/-</span>
@@ -34,36 +34,39 @@
                         </p>
                     </div>
                 </section>
-                <form class="form laptop-form bg-light rounded border-0 d-none d-md-flex flex-column align-items-center bg-light ms-3">
-                    <h1 class="text-center my-2 text-dark " style="color: #a65fa2;">
-                        Book Your Pet Scan Now !
-                    </h1>
-                    <input placeholder="Name" name='name' type="text" class="border-0 px-2 bg-white h-[40px] rounded bg-gray-200 my-2">
-                    <input placeholder="Phone No" name='number' type="text" class="border-0 px-2 bg-white h-[40px] rounded bg-gray-200 my-2">
-                    <select name='city' type="text" class="border-0 px-2 bg-white h-[40px] rounded bg-gray-200 my-2" id="scanElement">
-                        <option value="Select type of scan">Select type of scan</option>
-                        <?php
-                        $typesData = array(
-                            array("text" => "Whole Body Analog Pet CT scan", "price" => "20000,", "discountPrice" => "14999"),
-                            array("text" => "Whole Body Digital Pet CT Scan", "price" => "20000,", "discountPrice" => "14999"),
-                            array("text" => "PSMA Pet CT Scan", "price" => "35000", "discountPrice" => "31000"),
-                            array("text" => "Fdopa Pet CT Scan", "price" => "35000,", "discountPrice" => "31999"),
-                            array("text" => "Dotatate Pet CT Scan", "price" => "20000,", "discountPrice" => "14999"),
-                            array("text" => "Dotanoc Pet CT Scan", "price" => "20000,", "discountPrice" => "14999"),
-                        );
+                <div class="bg-light p-3 p-md-auto form-box align-self-stretch">
+                    <form class="form laptop-form bg-light rounded border-0 d-flex flex-column align-items-center bg-light ms-3">
+                        <h1 class="text-center my-2 text-dark " style="color: #a65fa2;">
+                            Book Your Pet Scan Now !
+                        </h1>
+                        <input placeholder="Name" name='name' type="text" class="border-0 px-2 bg-white h-[40px] rounded bg-gray-200 my-2">
+                        <input placeholder="Phone No" name='number' type="text" class="border-0 px-2 bg-white h-[40px] rounded bg-gray-200 my-2">
+                        <select name='city' type="text" class="border-0 px-2 bg-white h-[40px] rounded bg-gray-200 my-2" id="scanElement">
+                            <option value="Select type of scan">Select type of scan</option>
+                            <?php
+                            $typesData = array(
+                                array("text" => "Whole Body Analog Pet CT scan", "price" => "20000,", "discountPrice" => "14999"),
+                                array("text" => "Whole Body Digital Pet CT Scan", "price" => "20000,", "discountPrice" => "14999"),
+                                array("text" => "PSMA Pet CT Scan", "price" => "35000", "discountPrice" => "31000"),
+                                array("text" => "Fdopa Pet CT Scan", "price" => "35000,", "discountPrice" => "31999"),
+                                array("text" => "Dotatate Pet CT Scan", "price" => "20000,", "discountPrice" => "14999"),
+                                array("text" => "Dotanoc Pet CT Scan", "price" => "20000,", "discountPrice" => "14999"),
+                            );
 
-                        foreach ($typesData as $optionData) {
-                            echo "<option value='{$optionData['text']}'>{$optionData['text']}</option>";
-                        }
+                            foreach ($typesData as $optionData) {
+                                echo "<option value='{$optionData['text']}'>{$optionData['text']}</option>";
+                            }
 
-                        ?>
-                    </select>
-                    <button style="background-color: #a65fa2;" class="border-0 fs-bold text-white px-3 py-1 my-2">
-                        BOOK NOW
-                    </button>
-                </form>
+                            ?>
+                        </select>
+                        <button style="background-color: #a65fa2;" class="m-auto border-0 fs-bold text-white px-3 py-1 my-2 form-submit-btn">
+                            BOOK NOW
+                        </button>
+                    </form>
+                </div>
+
             </div>
-            <form class="form mobile-form bg-light rounded border-0 p-3 d-flex d-md-none  flex-column align-items-center bg-light">
+            <!-- <form class="form mobile-form bg-light rounded border-0 p-3 d-flex d-md-none  flex-column align-items-center bg-light">
                 <h1 class="text-center my-2" style="color: #a65fa2;">
                     Book Your Biopsy Test
                 </h1>
@@ -76,7 +79,7 @@
                 <button style="background-color: #a65fa2;" class="border-0 fs-bold h-[35px] rounded text-white px-2 py-1 my-2">
                     BOOK NOW
                 </button>
-            </form>
+            </form> -->
             <div class="d-flex flex-row justify-content-center flex-wrap flex-md-nowrap  my-3">
                 <div class='card1'>
                     <img src="./assets/img1.png" alt="">
@@ -101,7 +104,6 @@
                 </h2>
                 <div class="d-flex flex-row justify-content-center align-items-center flex-wrap">
                     <?php
-
                     foreach ($typesData as $typesCardData) {
                         echo "<div class='types-card mt-2 bg-light pt-2 rounded d-flex flex-column justify-content-center align-items-center'>
                                 <h2>{$typesCardData['text']}</h2>
@@ -405,11 +407,17 @@
                         <div class="accordion my-2" id="accordionExample<?php echo $data['id']; ?>">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo<?php echo $data['id']; ?>" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                    <button class="accordion-button <?php if ($data['id'] == 1 or $data['id'] == 6) {
+                                                                        echo '';
+                                                                    } else {
+                                                                        echo 'collapsed';
+                                                                    }; ?>" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo<?php echo $data['id']; ?>" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
                                         <?php echo $data['title']; ?>
                                     </button>
                                 </h2>
-                                <div id="panelsStayOpen-collapseTwo<?php echo $data['id']; ?>" class="accordion-collapse collapse">
+                                <div id="panelsStayOpen-collapseTwo<?php echo $data['id']; ?>" class="accordion-collapse collapse <?php if ($data['id'] === 1 or $data['id'] == 6) {
+                                                                                                                                        echo 'show';
+                                                                                                                                    } ?>">
                                     <div class="accordion-body">
                                         <code><?php echo $data['text']; ?></code>
                                     </div>

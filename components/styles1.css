@@ -7,6 +7,18 @@
   padding: calc(46rem / 53);
   width: 31.19vw !important;
   flex-shrink: 0;
+  align-self: stretch;
+  z-index: 10;
+  @media screen and (max-width: 768px) {
+    width: 79.4vw !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+}
+
+.mobile-form {
+  width: 79.4vw !important;
+  padding: 1vw;
 }
 
 .types-card {
@@ -141,4 +153,26 @@ nav button {
     height: 0.8918rem;
     width: 0.813636rem;
   }
+}
+
+.form-box {
+  background-color: transparent !important;
+  @media screen and (max-width: 768px) {
+    background-color: var(--clr2) !important;
+  }
+}
+
+/* form {
+  position: relative;
+}*/
+
+form button {
+  @media screen and (max-width: 768px) {
+    /* position: relative;
+    transform: translate(-50%, -50%); */
+  }
+} 
+
+.form-submit-btn{
+  align-self: center !important;
 }
