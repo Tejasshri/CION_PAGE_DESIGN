@@ -22,7 +22,6 @@
 
 .types-card h2 {
   margin: 0 1.05660377rem !important;
-
 }
 
 .types-card form h1 {
@@ -133,4 +132,13 @@ nav button {
 .faq-inner-container .accordion-button:not(.collapsed)::after {
   background-size: 20px !important;
   background-image: url("https://tse2.mm.bing.net/th?id=OIP.olprDojCA6ATaPKWOyB3UgHaHa&pid=Api&P=0&h=180");
+}
+
+.review-card img {
+  height: 0.48934rem;
+  width: 0.536415rem;
+  @media screen and (max-width: 768px) {
+    height: 0.8918rem;
+    width: 0.813636rem;
+  }
 }

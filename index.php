@@ -18,8 +18,8 @@
 <body>
     <div class='d-flex flex-column min-vh-100' id="container">
         <?php include "./components/header.php" ?>
-        <div class='flex-grow align-self-center ' style='flex-grow:1;'>
-            <div class='banner-and-form d-flex justify-content-between align-items-center p-3'>
+        <div class='flex-grow align-self-center' style='flex-grow:1;'>
+            <div class='banner d-flex justify-content-between align-items-center p-3'>
                 <section class="banner-left-section" id="#form1">
                     <h1>
                         PET CT SCAN Cost for cancer diagnostic starts at <span style="border-radius:3px; background-color: var(--clr1);">Rs.10999/-</span>
