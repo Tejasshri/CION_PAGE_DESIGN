@@ -16,11 +16,13 @@
     width: 45.8vw !important;
     margin-left: unset;
     margin-right: unset;
+    margin: 1vw 4px !important;
   }
 }
 
 .types-card h2 {
   margin: 0 1.05660377rem !important;
+
 }
 
 .types-card form h1 {
@@ -124,11 +126,11 @@ nav button {
   background-color: rba(0, 0, 0, 0.5);
 }
 
-.accordion-button::after {
+.faq-inner-container .accordion-button::after {
   background-size: 20px;
   background-image: url("https://www.freepnglogos.com/uploads/plus-icon/plus-icon-plus-math-icon-download-icons-9.png");
 }
-.accordion-button:not(.collapsed)::after {
+.faq-inner-container .accordion-button:not(.collapsed)::after {
   background-size: 20px !important;
   background-image: url("https://tse2.mm.bing.net/th?id=OIP.olprDojCA6ATaPKWOyB3UgHaHa&pid=Api&P=0&h=180");
 }

@@ -22,7 +22,7 @@
             <div class='banner-and-form d-flex justify-content-between align-items-center p-3'>
                 <section class="banner-left-section" id="#form1">
                     <h1>
-                        PET CT SCAN Cost for cancer diagnostic starts at Rs.10999/-
+                        PET CT SCAN Cost for cancer diagnostic starts at <span style="border-radius:3px; background-color: var(--clr1);">Rs.10999/-</span>
                     </h1>
                     <div class="d-flex section-div d-flex flex-row align-items-center ps-1 py-1">
                         <img src="./assets/imgs1.png" alt="" width="60" height="60" class="">
@@ -105,7 +105,7 @@
                     foreach ($typesData as $typesCardData) {
                         echo "<div class='types-card mt-2 bg-light pt-2 rounded d-flex flex-column justify-content-center align-items-center'>
                                 <h2>{$typesCardData['text']}</h2>
-                                <div class='flex-grow-1 border-2 border-bottom-primary d-flex flex-row align-items-center mt-3'>
+                                <div class='flex-grow-1 border-2 border-bottom-primary d-flex flex-row align-items-center' style='margin-top: 0.5094339rem;'>
                                     <p style='text-decoration: line-through;'>RS 20000/-</p>
                                     <p>RS 14999</p>
                                 </div>
