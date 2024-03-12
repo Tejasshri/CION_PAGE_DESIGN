@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <div class='d-flex flex-column max-vh-100 overflow-scroll' id="container">
+    <div class='d-flex flex-column min-vh-100' id="container">
         <?php include "./components/header.php" ?>
         <div class='flex-grow align-self-center ' style='flex-grow:1;'>
             <div class='banner-and-form d-flex justify-content-between align-items-center p-3'>
@@ -105,10 +105,11 @@
                     foreach ($typesData as $typesCardData) {
                         echo "<div class='types-card mt-2 bg-light pt-2 rounded d-flex flex-column justify-content-center align-items-center'>
                                 <h2>{$typesCardData['text']}</h2>
-                                <div class='flex-grow-1 border-2 border-bottom-primary d-flex flex-row align-items-center'>
+                                <div class='flex-grow-1 border-2 border-bottom-primary d-flex flex-row align-items-center mt-3'>
                                     <p style='text-decoration: line-through;'>RS 20000/-</p>
                                     <p>RS 14999</p>
                                 </div>
+                                <hr class='hr-line' />
                                 <button style='background-color: #802A8F;' class='my-2 border-0 text-white' onclick='onClickScan(event)' data-text='{$typesCardData['text']}' >
                                     Book Now
                                 </button>
@@ -252,8 +253,8 @@
                     </div>
                 </div>
             </div>
-            <div class="my-4">
-                <h2 class="text-center mt-5 mb-4 title">
+            <div class="my-4 guidelines-section">
+                <h2 class="text-center my-3 title">
                     Guidelines for PET-CT scans
                 </h2>
                 <div class="guidelines-container d-flex flex-row justify-content-center flex-wrap ">
@@ -343,7 +344,7 @@
                 </div>
             </div>
 
-            <div class="d-flex flex-column align-items-center">
+            <div class="d-flex flex-column align-items-center pt-3" style="background-color: var(--clr2);">
                 <h2 class="text-center title">
                     Our services
                 </h2>
@@ -383,7 +384,7 @@
                 </div>
             </div>
 
-            <div class="faq-container d-flex flex-column align-items-center">
+            <div class="faq-container d-flex flex-column align-items-center pt-3">
                 <h1 class="title">
                     FAQs
                 </h1>
@@ -420,7 +421,7 @@
                 </div>
             </div>
         </div>
-        <?php include "./components/footer.php" ?>
+        <!-- <?php include "./components/footer.php" ?> -->
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>

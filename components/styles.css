@@ -12,6 +12,7 @@ html {
 :root {
   height: 40px;
   --clr1: #802a8f;
+  --clr2: #f0d0fd;
   --fss-1: 1rem; /* 22px */
   --fss-2: 0.6226rem; /* 33px */
   --fss-3: ;
@@ -69,7 +70,7 @@ nav img {
 .section-div {
   margin: 10px 5px;
   padding: 2px;
-  background-color: rgb(211, 11, 211);
+  background-color: var(--clr1);
   border-radius: 5px;
 }
 
@@ -126,7 +127,6 @@ select {
 
 .card1 > span {
   font-weight: 500;
-  /* margin: 0; */
   margin-left: 14px;
   width: 3.5283rem;
   font-size: 0.6226rem;
@@ -167,11 +167,11 @@ select {
   color: grey;
   font-size: 23px;
   margin: auto;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .types-card div p:last-child {
-  font-weight: 700;
+  font-weight: 600;
   color: var(--clr1);
   font-size: 23px;
   margin: auto;
@@ -185,21 +185,25 @@ select {
 }
 
 .types-card > div {
-  border-bottom: 2px solid rgb(209, 206, 206);
+  /* border-bottom: 2px solid rgb(209, 206, 206); */
   align-self: stretch;
   text-align: center;
   justify-content: center;
+  padding-bottom: 5px;
 }
 
 .types-card button {
   font-size: 0.6226rem;
   width: calc(241rem / 53);
+  height: 0.943346rem;
   border-radius: 0.098113208rem;
   font-weight: 500;
   margin: 10px;
   @media screen and (max-width: 768px) {
     font-size: 0.727rem;
     width: calc(100rem / 22);
+    height: 1.3636rem;
+    border-radius: 0.11545454rem;
   }
 }
 
@@ -211,7 +215,7 @@ button {
 
 .review-card {
   padding: 20px 0;
-  background-color: #e0b2e8;
+  background: #f0d0dd;
   border-radius: 5px;
   width: 15.4716rem;
   margin-top: 20px;
@@ -219,7 +223,6 @@ button {
   @media (max-width: 768px) {
     width: 19.5rem;
   }
-  
 }
 
 .review-card p {
@@ -242,8 +245,7 @@ button {
 .guidance-card {
   width: 31vw;
   margin: 10px;
-  /* border: 2px solid rgb(201, 201, 201); */
-  box-shadow: 0 4px 16px 0 #bfbfbf;
+  background-color: white;
   border-radius: 6px;
   @media (max-width: 768px) {
     width: 48vw;
@@ -315,6 +317,10 @@ button {
   }
 }
 
+.our-services-card p {
+  line-height: 1;
+}
+
 .faq-inner-container {
 }
 
@@ -339,14 +345,23 @@ button {
 }
 
 .doctor-image {
-  width: var(--pic-s);
-  height: var(--pic-s);
+  width: 2.9245283rem;
+  height: 2.94339623rem;
+
+  @media screen and (max-width: 768px) {
+    width: 3.95454rem;
+    height: 4.181818rem;
+  }
 }
 
 .para {
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
   max-width: 50vw;
   @media (max-width: 768px) {
     max-width: none;
+    margin-bottom: 10px;
   }
 }
 
@@ -368,4 +383,14 @@ strong {
   @media (max-width: 768px) {
     width: 0.7727;
   }
+}
+
+.guidelines-section {
+  background-color: #f4f4f4;
+  padding: 10px 0;
+}
+
+.guidelines-section h2 {
+  margin: 0;
+  padding: 0;
 }
