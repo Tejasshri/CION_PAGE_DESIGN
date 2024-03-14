@@ -11,7 +11,7 @@
         CION CANCERS
     </title>
     <link rel="stylesheet" href="./components/styles.css">
-    <link rel="stylesheet" href="./components/styles1.css">
+    <!-- <link rel="stylesheet" href="./components/styles1.css"> -->
     <script src="./components/index.js" defer></script>
 </head>
 
@@ -485,35 +485,35 @@
                 </h2>
                 <div class="d-flex flex-row justify-content-between  flex-wrap p-3">
                     <div class="our-services-card guidance-card d-flex flex-column align-items-center p-3 text-center">
-                        <img src="./assets/imgicon1.png" height="80" alt="">
+                        <img src="./assets/service-card-img1.png" height="80" alt="">
                         <h5 class="mt-2 card-title">Cancer Surgeries</h5>
                     </div>
                     <div class="our-services-card guidance-card d-flex flex-column align-items-center p-3 text-center">
-                        <img src="./assets/imgicon2.png" height="80" alt="">
+                        <img src="./assets/service-card-img2.png" height="80" alt="">
                         <h5 class="mt-2 card-title">Chemotherapy</h5>
                     </div>
                     <div class="our-services-card guidance-card d-flex flex-column align-items-center p-3 text-center">
-                        <img src="./assets/imgicon3.png" height="80" alt="">
+                        <img src="./assets/service-card-img3.png" height="80" alt="">
                         <h5 class="mt-2 card-title">Immunotherapy</h5>
                     </div>
                     <div class="our-services-card guidance-card d-flex flex-column align-items-center p-3 text-center">
-                        <img src="./assets/imgicon3.png" height="80" alt="">
+                        <img src="./assets/service-card-img4.png" height="80" alt="">
                         <h5 class="mt-2 card-title">Radiation Oncology</h5>
                     </div>
                     <div class="our-services-card guidance-card d-flex flex-column align-items-center p-3 text-center">
-                        <img src="./assets/imgicon1.png" height="80" alt="">
+                        <img src="./assets/service-card-img5.png" height="80" alt="">
                         <h5 class="mt-2 card-title">Biopsy</h5>
                     </div>
                     <div class="our-services-card guidance-card d-flex flex-column align-items-center p-3 text-center">
-                        <img src="./assets/imgicon2.png" height="80" alt="">
+                        <img src="./assets/service-card-img6.png" height="80" alt="">
                         <h5 class="mt-2 card-title">Breast & Oral Screenings</h5>
                     </div>
                     <div class="our-services-card guidance-card d-flex flex-column align-items-center p-3 text-center">
-                        <img src="./assets/imgicon3.png" height="80" alt="">
+                        <img src="./assets/service-card-img7.png" height="80" alt="">
                         <h5 class="mt-2 card-title">MRI Scans</h5>
                     </div>
                     <div class="our-services-card guidance-card d-flex flex-column align-items-center p-3 text-center">
-                        <img src="./assets/imgicon3.png" height="80" alt="">
+                        <img src="./assets/service-card-img8.png" height="80" alt="">
                         <h5 class="mt-2 card-title">Bons scans</h5>
                     </div>
                 </div>

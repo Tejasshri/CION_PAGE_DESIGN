@@ -49,16 +49,20 @@
 
 <body>
     <?php
-    $dbhost = "localhost:3306";
-    $dbuser = "root";
-    $dbpass = "0808@#Tejas";
-    $db = "cion_db";
+    // $dbhost = "localhost:3306";
+    // $dbuser = "root";
+    // $dbpass = "0808@#Tejas";
+    // $db = "cion_db";
+    $dbhost = "sql305.infinityfree.com";
+    $dbuser = "if0_36160230";
+    $dbpass = "Tejas@#2003";
+    $db = "if0_36160230_cion_db";
 
 
     $conn = new mysqli($dbhost, $dbuser, $dbpass, $db) or die("Connect failed: %s\n" . mysqli_connect_error());
     if (!$conn) {
         die("" . mysqli_connect_error());
-    }
+    } 
 
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $name = $_POST['name'];
