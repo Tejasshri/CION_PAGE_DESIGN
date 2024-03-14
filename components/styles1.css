@@ -16,28 +16,27 @@
   }
 }
 
+.laptop-form p {
+  font-family: "Source Sans Pro", var(--font-sans);
+}
+
 .mobile-form {
   width: 79.4vw !important;
   padding: 1vw;
 }
 
 .types-card {
+  position: relative;
   width: 25.88vw !important;
+  height: calc(355rem / 53);
   margin: 1vw 10px !important;
   @media screen and (max-width: 768px) {
     width: 45.8vw !important;
+    height: calc(170.18rem / 22);
     margin-left: unset;
     margin-right: unset;
     margin: 1vw 4px !important;
   }
-}
-
-.types-card h2 {
-  margin: 0 1.05660377rem !important;
-}
-
-.types-card form h1 {
-  /* font-size: 2.76vw !important; */
 }
 
 .accordion-header button {
@@ -119,30 +118,36 @@ nav button {
   color: grey;
   border: 1px solid;
   align-self: stretch;
-  margin: 10px !important;
-  margin-bottom: 4px !important;
 }
 
 .faq-inner-container .accordion-header,
 .faq-inner-container .accordion-item,
 .faq-inner-container .accordion-button {
   background-color: white !important;
+  font-family: var(--font-sans) !important;
 }
 
 .faq-inner-container .accordion-body {
   color: #303a42;
+
 }
 
 .inner-banner {
   background-color: rba(0, 0, 0, 0.5);
 }
 
+.accordion-button.collapsed {
+  color: black !important;
+}
+
 .faq-inner-container .accordion-button::after {
   background-size: 20px;
+  background-position: center;
   background-image: url("https://www.freepnglogos.com/uploads/plus-icon/plus-icon-plus-math-icon-download-icons-9.png");
 }
 .faq-inner-container .accordion-button:not(.collapsed)::after {
-  background-size: 20px !important;
+  background-size: 20px;
+  background-position: center;
   background-image: url("https://tse2.mm.bing.net/th?id=OIP.olprDojCA6ATaPKWOyB3UgHaHa&pid=Api&P=0&h=180");
 }
 
@@ -162,17 +167,99 @@ nav button {
   }
 }
 
-/* form {
-  position: relative;
-}*/
-
-form button {
-  @media screen and (max-width: 768px) {
-    /* position: relative;
-    transform: translate(-50%, -50%); */
-  }
-} 
-
-.form-submit-btn{
+.form-submit-btn {
   align-self: center !important;
+}
+
+code {
+  color: #303a42 !important;
+  font-family: var(--font-sans) !important;
+}
+
+.types-card__title {
+  margin: auto !important;
+}
+
+.hr-line {
+  border-color: #d9d9d9;
+  margin: unset;
+}
+
+@media screen and (min-width: 768px) {
+  .acc-container-1,
+  .acc-container-2 {
+    width: 50%;
+    flex-shrink: 0;
+  }
+}
+
+.faq-inner-container,
+.faq-inner-container .accordion-body,
+.accordion-body {
+  font-family: var(--font-sans) !important;
+}
+
+.types-card__btn {
+  all: unset;
+  font-size: 0.6226rem;
+  width: calc(241rem / 53);
+  height: 0.943346rem;
+  border-radius: 0.098113208rem;
+  font-weight: 500;
+  margin: 10px;
+  @media screen and (max-width: 768px) {
+    font-size: 0.727rem;
+    width: 4.54545rem;
+    height: 1.3636rem;
+    border-radius: 0.11545454rem;
+  }
+}
+
+.banner-left-section__div {
+  margin-left: 0;
+  margin-top: 0.48528rem !important;
+  @media screen and (max-width: 768px) {
+    margin-top: 0.3181818rem !important;
+  }
+}
+
+.banner-first-div {
+  margin-top: 1.4528rem !important;
+  @media screen and (max-width: 768px) {
+    margin-top: 0.9545rem !important;
+  }
+}
+
+.guidance-card {
+  margin-left: 0.0566rem !important;
+  margin-right: calc(3rem / 53) !important;
+}
+
+.understanding-ct-scan-card-container > div::-webkit-scrollbar {
+  visibility: hidden;
+}
+
+.understanding-ct-scan-card-container:hover > div::-webkit-scrollbar {
+  visibility: visible;
+}
+
+/* .faq-inner-container .accordion-button {
+  padding-top:10px !important;
+  padding-bottom:10px !important;
+} */
+
+.accordion-item, .accordion-header, .accordion-body, .accordion-button {
+  border: none !important;
+}
+
+.accordion-item{
+  border-bottom: 2px solid rgb(225, 225, 225) !important;
+}
+
+.accordion-button{
+  padding: 20px 20px !important;
+}
+
+.accordion-body{
+  padding: 20px 20px !important;
 }
